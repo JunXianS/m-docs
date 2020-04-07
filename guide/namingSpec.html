@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue 组件命名 | JunXian Sun</title>
+    <meta name="description" content="The description of the site.">
+    <link rel="icon" href="/m-docs/logo.png">
+    
+    <link rel="preload" href="/m-docs/assets/css/styles.3f595cd5.css" as="style"><link rel="preload" href="/m-docs/assets/js/app.3f595cd5.js" as="script"><link rel="preload" href="/m-docs/assets/js/17.ff1b9a0d.js" as="script"><link rel="prefetch" href="/m-docs/assets/css/10.styles.e4464897.css"><link rel="prefetch" href="/m-docs/assets/css/2.styles.fbfcb04f.css"><link rel="prefetch" href="/m-docs/assets/css/3.styles.ef8863e0.css"><link rel="prefetch" href="/m-docs/assets/css/4.styles.aa8042b9.css"><link rel="prefetch" href="/m-docs/assets/css/5.styles.0242ac4a.css"><link rel="prefetch" href="/m-docs/assets/css/6.styles.8885d05c.css"><link rel="prefetch" href="/m-docs/assets/js/0.1e82fe81.js"><link rel="prefetch" href="/m-docs/assets/js/10.e4464897.js"><link rel="prefetch" href="/m-docs/assets/js/11.f5b3a1dc.js"><link rel="prefetch" href="/m-docs/assets/js/12.eb89c503.js"><link rel="prefetch" href="/m-docs/assets/js/13.67bcb27e.js"><link rel="prefetch" href="/m-docs/assets/js/14.e52f91b8.js"><link rel="prefetch" href="/m-docs/assets/js/15.0e5a3476.js"><link rel="prefetch" href="/m-docs/assets/js/16.1e236e8c.js"><link rel="prefetch" href="/m-docs/assets/js/18.5fafe160.js"><link rel="prefetch" href="/m-docs/assets/js/19.6f9746aa.js"><link rel="prefetch" href="/m-docs/assets/js/2.fbfcb04f.js"><link rel="prefetch" href="/m-docs/assets/js/20.445b10fe.js"><link rel="prefetch" href="/m-docs/assets/js/3.ef8863e0.js"><link rel="prefetch" href="/m-docs/assets/js/4.aa8042b9.js"><link rel="prefetch" href="/m-docs/assets/js/5.0242ac4a.js"><link rel="prefetch" href="/m-docs/assets/js/6.8885d05c.js"><link rel="prefetch" href="/m-docs/assets/js/7.f5d6f0e7.js"><link rel="prefetch" href="/m-docs/assets/js/8.0297fb90.js"><link rel="prefetch" href="/m-docs/assets/js/9.9f84a5ef.js">
+    <link rel="stylesheet" href="/m-docs/assets/css/10.styles.e4464897.css"><link rel="stylesheet" href="/m-docs/assets/css/2.styles.fbfcb04f.css"><link rel="stylesheet" href="/m-docs/assets/css/3.styles.ef8863e0.css"><link rel="stylesheet" href="/m-docs/assets/css/4.styles.aa8042b9.css"><link rel="stylesheet" href="/m-docs/assets/css/5.styles.0242ac4a.css"><link rel="stylesheet" href="/m-docs/assets/css/6.styles.8885d05c.css"><link rel="stylesheet" href="/m-docs/assets/css/styles.3f595cd5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/m-docs/" class="home-link router-link-active"><!----> <span class="site-name">JunXian Sun</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/m-docs/" class="nav-link">Home</a></div><div class="nav-item"><a href="/m-docs/guide/" class="nav-link router-link-active">Vue 编码规范整理</a></div><div class="nav-item"><a href="/m-docs/projects/" class="nav-link">Projects</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/m-docs/" class="nav-link">Home</a></div><div class="nav-item"><a href="/m-docs/guide/" class="nav-link router-link-active">Vue 编码规范整理</a></div><div class="nav-item"><a href="/m-docs/projects/" class="nav-link">Projects</a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>Vue 编码规范整理</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/m-docs/guide/" class="sidebar-link">目标</a></li><li><a href="/m-docs/guide/catalog.html" class="sidebar-link">目录</a></li><li><a href="/m-docs/guide/componentBased.html" class="sidebar-link">模块组件化</a></li><li><a href="/m-docs/guide/structure.html" class="sidebar-link">组件结构化</a></li><li><a href="/m-docs/guide/namingSpec.html" class="active sidebar-link">Vue 组件命名</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/m-docs/guide/namingSpec.html#组件命名" class="sidebar-link">组件命名</a></li><li class="sidebar-sub-header"><a href="/m-docs/guide/namingSpec.html#其它命名" class="sidebar-link">其它命名</a></li></ul></li><li><a href="/m-docs/guide/officialNorms.html" class="sidebar-link">官方规范</a></li><li><a href="/m-docs/guide/projectSpec.html" class="sidebar-link">项目规范</a></li><li><a href="/m-docs/guide/supplement.html" class="sidebar-link">补充</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="vue-组件命名">Vue 组件命名</h1> <h2 id="组件命名">组件命名</h2> <h3 id="组件的命名需遵从以下原则：">组件的命名需遵从以下原则：</h3> <ul><li><strong>有意义，可读性</strong>：不过于抽象晦涩命名</li> <li><strong>组件名多个单词</strong>：2-3个，尽量不要过长</li> <li><strong>符合自定义元素规范</strong>：使用连字符分隔单词，切勿使用保留字。</li> <li><strong><font color="#FF0000">命名遵循PascalCase约定。</font></strong></li></ul> <h3 id="约定规范（含官方）：">约定规范（含官方）：</h3> <p><strong>1，组件文件夹/文件名一律采用PascalCase(大驼峰)写法。</strong></p> <ul><li><p>原因：</p> <ul><li>引入组件时，组件的变量通常用PascalCase格式，以便区别于一般变量</li> <li>组件文件名与变量名一致，方便对应，结构清晰。</li></ul> <div class="language-js extra-class"><pre class="language-js"><code>    components<span class="token operator">/</span>
+    <span class="token operator">|</span><span class="token operator">-</span> SearchButtonClear<span class="token punctuation">.</span>vue
+    <span class="token operator">|</span><span class="token operator">-</span> SearchButtonRun<span class="token punctuation">.</span>vue
+    <span class="token operator">|</span><span class="token operator">-</span> SearchInputQuery<span class="token punctuation">.</span>vue
+    <span class="token operator">|</span><span class="token operator">-</span> SetingCheck<span class="token punctuation">.</span>vue
+    <span class="token operator">|</span><span class="token operator">-</span> SetingCheckStartUp<span class="token punctuation">.</span>vue
+</code></pre></div><p>※避免新建多个文件夹，多级目录，把对应组件放到对应目录里：</p> <p><code>1，在多级目录间找来找去，要比在单个components目录下滚动查找要花费更多精力。</code></p> <p><code>2，存在组件重名（比如存在多个add组件）的时候在编辑器里更难快速定位。</code></p> <p><code>3，让重构变得更困难，因为为一个移动了的组件更新相关引用时，查找/替换通常并不搞笑</code></p></li></ul> <p><strong>2，组件名应该始终是多个单词的，根组件 App 除外。</strong>（官）</p> <ul><li><ul><li>html元素都是单个单词的（如h5标签<code>&lt;article&gt;,&lt;header&gt;</code>)，为了区分组件和一般html元素</li> <li>组件由多个单词组成，如InfoItem.vue，单独的Info.vue不推荐。</li></ul></li></ul> <p><strong><font color="#FF0000">3，遵循 kebab-case 约定</font></strong>（官）</p> <p>在页面中使用组件需要前后闭合，并以短线分隔，如：</p> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token operator">&lt;</span>muti<span class="token operator">-</span>menu<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>muti<span class="token operator">-</span>menu<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>muti<span class="token operator">-</span>menu<span class="token operator">-</span>left<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>muti<span class="token operator">-</span>menu<span class="token operator">-</span>left<span class="token operator">&gt;</span>
+</code></pre></div><p><strong>4，<font color="#FF0000">jS/JSX 中的组件名使用PascalCase </font></strong>（官）</p> <ul><li><p>原因：</p> <ul><li>在较为简单的应用中只使用 Vue.component 进行全局组件注册时，可以使用 kebab-case 字符串.</li></ul> <p>例子：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> OrganInfo <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./OrganInfo.vue'</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token punctuation">:</span> <span class="token string">&quot;OrganInfo&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <p><strong>5，<font color="#FF0000"> prop 命名用 camelCase，在模板和 JSX 中用 kebab-case。 </font></strong>（官）</p> <ul><li>原因：
+<ul><li>html中的特性名是大小写不敏感的（标签和属性忽略大小写的），浏览器会把所有大写字符解释为小写字符。所以在Dom中使用驼峰命名的prop名不好使了。</li></ul> <div class="language-js extra-class"><pre class="language-js"><code>props<span class="token punctuation">:</span><span class="token punctuation">{</span>
+  greetingText<span class="token punctuation">:</span>String
+<span class="token punctuation">}</span>
+
+<span class="token operator">&lt;</span>WelcomeMessage greeting<span class="token operator">-</span>text<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>WelcomeMessage<span class="token operator">&gt;</span>
+</code></pre></div></li></ul> <p><strong>6，和父组件紧密耦合的子组件以父组件名作为前缀命名</strong>（官）</p> <div class="language-js extra-class"><pre class="language-js"><code>  components<span class="token operator">/</span>
+  <span class="token operator">|</span><span class="token operator">-</span> SearchSidebar<span class="token punctuation">.</span>vue
+  <span class="token operator">|</span><span class="token operator">-</span> SearchSidebarNavigation<span class="token punctuation">.</span>vue
+</code></pre></div><p><strong>7，在插件、混入等扩展中始终为<code>自定义的私有属性</code>使用 $_ 前缀（或使用模块 	作用域，保证不允许外部访问的函数的私有性）</strong>（官）</p> <ul><li>原因：
+<ul><li>推荐使用$_，作为一个自定义的私有属性的约定，以确保不会和 Vue 自身相冲突。</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">//第一种</span>
+  <span class="token keyword">var</span> optGreatMixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+    methods<span class="token punctuation">:</span><span class="token punctuation">{</span>
+      $_optGreatMixin_updata<span class="token punctuation">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//body....</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+   <span class="token comment">//第二种</span>
+    <span class="token keyword">var</span> optGreatMixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+      methods<span class="token punctuation">:</span><span class="token punctuation">{</span>
+        <span class="token comment">//启用</span>
+        <span class="token function">publicMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+          <span class="token function">optGreatFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">optGreatFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token comment">//body....</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">export</span> <span class="token keyword">default</span> optGreatMixin
+</code></pre></div></li></ul> <h2 id="其它命名">其它命名</h2> <h4 id="_1，采用语义化单词组合">1，采用语义化单词组合</h4> <ul><li>不允许通过1,2,3等序号进行命名</li> <li>id用标识模块或父容器区域，名称唯一，不要随意新建id。</li> <li>规则名称中不应该包含颜色、定位等与具体显示效果相关的信息</li></ul> <h4 id="_2，id-class命名">2，id/class命名</h4> <ul><li>id：采用“小驼峰命名法”</li></ul> <p><code>例：myStudent：变量myStudent第一个单词是全部小写，后面的单词首字母大写。</code></p> <ul><li>class：采用“中划线法命名法”,不要太长</li></ul> <p><code>例：print-employ</code></p> <ul><li>id和class命名越精简越好，只要足够表达意思，这样有助于理解</li></ul> <p><code>.excep_box_inside_con{} /* 不推荐 */</code></p> <p><code>.excep_inside{} /* 推荐 */</code></p> <h4 id="_3-重要的点击操作按钮加id。">3, 重要的点击操作按钮加id。</h4> <p>具体待补充</p> <h4 id="_4，-methods-命名规范">4， methods 命名规范</h4> <ul><li>→  驼峰式命名,例如：<div class="language-json extra-class"><pre class="language-json"><code>getListData、postFormData
+</code></pre></div></li> <li>附： 函数方法常用的动词:<div class="language-css extra-class"><pre class="language-css"><code>get 获取/set 设置,
+add 增加/remove 删除
+create 创建/destory 移除
+start 启动/stop 停止
+open 打开/close 关闭,read 读取/write 写入
+load 载入/save 保存,
+create 创建/destroy 销毁
+begin 开始/end 结束,
+backup 备份/restore 恢复
+import 导入/export 导出,
+split 分割/merge 合并
+inject 注入/extract 提取,
+attach 附着/detach 脱离bind 绑定/separate 分离,
+view 查看/browse 浏览
+edit 编辑/modify 修改,
+select 选取/mark 标记
+copy 复制/paste 粘贴,
+undo 撤销/redo 重做
+insert 插入/delete 移除,
+add 加入/append 添加
+clean 清理/clear 清除,
+index 索引/sort 排序
+find 查找/search 搜索,
+increase 增加/decrease 减少
+play 播放/pause 暂停,
+launch 启动/run 运行
+compile 编译/execute 执行,
+debug 调试/trace 跟踪
+observe 观察/listen 监听,
+build 构建/publish 发布
+input 输入/output 输出,
+encode 编码/decode 解码
+encrypt 加密/decrypt 解密,
+compress 压缩/decompress 解压缩
+pack 打包/unpack 解包,
+parse 解析/emit 生成
+connect 连接/disconnect 断开,
+send 发送/receive 接收
+download 下载/upload 上传,
+refresh 刷新/synchronize 同步
+update 更新/revert 复原,
+lock 锁定/unlock 解锁
+check out 签出/check in 签入,
+submit 提交/commit 交付
+push 推/pull 拉,
+expand 展开/collapse 折叠
+begin 起始/end 结束,
+start 开始/finish 完成
+enter 进入/exit 退出,
+abort 放弃/quit 离开
+obsolete 废弃/depreciate 废旧,
+collect 收集/aggregate 聚集
+</code></pre></div></li></ul> <p>其它待补充</p></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/m-docs/guide/structure.html" class="prev">
+          组件结构化
+        </a></span> <span class="next"><a href="/m-docs/guide/officialNorms.html">
+          官方规范
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/m-docs/assets/js/17.ff1b9a0d.js" defer></script><script src="/m-docs/assets/js/app.3f595cd5.js" defer></script>
+  </body>
+</html>
